@@ -1,0 +1,48 @@
+body {
+    background-image: url("https://venturebeat.com/wp-content/uploads/2021/08/GettyImages-1224500457-e1643727629417.jpg?fit=1351%2C675&strip=all");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 4.5em;
+    font-family:'Courier New', Courier, monospace;
+}
+
+nav {
+    font-size: 1.5em;
+}
+
+
+#aboutContainer {
+    background-color: rgba(65, 17, 19, 0.925);
+    border-radius: 4em;
+}
+
+#profilePic {
+    height: 400px;
+}
+
+#nameBanner {
+    font-size: 3em;
+}
+
+#introP {
+    font-size: 1.25em;
+    border-radius: 2em;
+}
+
+#lowerAbout {
+    padding-left: 30px;
+}
+
+.logo-container a {
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.logo-container img {
+    height: 75px;
+}
+
+#springLogo {
+    width: 150px;
+}
+
