@@ -46,3 +46,26 @@ nav {
     width: 150px;
 }
 
+@media only screen and (max-width: 600px) {
+    body {
+        text-align: center;
+    }
+
+    #aboutContainer {
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #descContainer {
+        width: 100%;
+    }
+
+    #authorImage {
+        width: 100%;
+    }
+
+    #introP {
+        width: 100%;
+    }
+  }
