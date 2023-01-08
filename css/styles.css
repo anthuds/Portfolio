@@ -2,7 +2,7 @@ body {
     background-image: url("https://venturebeat.com/wp-content/uploads/2021/08/GettyImages-1224500457-e1643727629417.jpg?fit=1351%2C675&strip=all");
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 4.5em;
+    padding-top:4.5em;
     font-family:'Courier New', Courier, monospace;
 }
 
@@ -16,9 +16,6 @@ nav {
     border-radius: 4em;
 }
 
-#profilePic {
-    height: 400px;
-}
 
 #nameBanner {
     font-size: 3em;
@@ -29,43 +26,20 @@ nav {
     border-radius: 2em;
 }
 
-#lowerAbout {
-    padding-left: 30px;
-}
 
-.logo-container a {
-    text-decoration: none;
-    overflow: hidden;
-}
+
 
 .logo-container img {
     height: 75px;
+    
 }
 
 #springLogo {
     width: 150px;
 }
 
-@media only screen and (max-width: 600px) {
+@media all and (max-width: 600px) {
     body {
-        text-align: center;
+        padding-top: 3.5em;
     }
-
-    #aboutContainer {
-        width: 100%;
-        justify-content: space-around;
-        align-items: center;
-    }
-
-    #descContainer {
-        width: 100%;
-    }
-
-    #authorImage {
-        width: 100%;
-    }
-
-    #introP {
-        width: 100%;
-    }
-  }
+}
