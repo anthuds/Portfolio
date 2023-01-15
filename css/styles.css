@@ -49,8 +49,6 @@ nav {
 
 /* Projects Section */
 
-#stayTunedPic {
-    width: 300px;
+#projectsContainer {
+    border-radius: 4em;
 }
-
-
